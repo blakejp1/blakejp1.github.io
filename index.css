@@ -1,4 +1,39 @@
-.important{
-    color: blue;
-    border: 3px rgb(106, 106, 173) solid;
+.important {
+	color: blue;
+	border: 3px rgb(106, 106, 173) solid;
+}
+
+.menu {
+	background-color: lightgray;
+}
+
+.containerGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px 100px;
+	border: black 1px solid;
+}
+
+.section1 {
+	background-color: lightyellow;
+}
+
+.section5 {
+	background-color: lightcoral;
+	grid-column: 3/4;
+	grid-row: 2;
+}
+
+.section4 {
+	grid-column: 2/3;
+	grid-row: 3;
+}
+
+.pyScrypt {
+	color: brown;
+}
+
+#change_me {
+	border: black;
+	background-color: darkgrey;
 }
